@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+body {
+  text-align: center;
+  font-family: system-ui, "Open Sans", "Helvetica Neue", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+#main_body {
+  width: 100%;
+  height: 651px;
+  background-image: url(./img/painting-jungle-scene-with-green-plant-green-leafy-plant.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main_body #main {
+  width: 700px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#main_body #main .heading {
+  padding: 80px 0 20px 0;
+  color: #fff;
+}
+#main_body #main .form-control {
+  background-color: rgba(300, 250, 345, 0.5);
+  border: transparent;
+  padding: 14px 30px;
+  text-align: left;
+}
+#main_body #main #input_num {
+  margin-left: -97px;
+  font-size: 13px;
+  color: red;
+  visibility: hidden;
+}
+#main_body #main .form-control::placeholder {
+  color: black;
+}
+#main_body #main #input_valid_num {
+  margin: -17px 0 0 -47px;
+  font-size: 13px;
+  color: red;
+  visibility: hidden;
+}
+#main_body #main #result {
+  font-size: 28px;
+  padding: 16px 0 35px 10px;
+  visibility: hidden;
+}
+#main_body #main #btn {
+  padding: 15px 30px;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  border-radius: 30px;
+}
